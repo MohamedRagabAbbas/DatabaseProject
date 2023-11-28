@@ -1476,6 +1476,30 @@ Attend(Student_Id, Class_Id) :-
 
 
 
+Campus(id, x, y) :- id = 1, x>=0, x<=1500,y>=0,y<=1250.
+
+
+UNL(id, x, y) :- id = 1, x>=50 , x<=550,y>=800,y<=1000.
+
+UNL(id, x, y) :- id = 2, x>=850, x<=1050,y>=950,y<=1100.
+UNL(id, x, y) :- id = 2, x>=1050, x<=1350,y>=800,y<=1150.
+
+
+UNL(id, x, y) :- id = 3, 3y-21x<200, 8y-9x>1500,5y-2x<2750.
+
+UNL(id, x, y) :- id = 4, x>=1050, x<=1450,y>=500,y<=700.
+
+UNL(id, x, y) :- id = 5, x>=750, x<=1300,y>=100,y<=300.
+
+
+
+UNL(id, x, y) :- id = 6, x>=750, x<=950,y>=700,y<=850.
+UNL(id, x, y) :- id = 6, y+x>1450,  2y-x<950,x<750.
+
+
+
+
+
 
 
 end%MLPQ%
