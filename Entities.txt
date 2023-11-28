@@ -151,106 +151,81 @@ Student(Id, First_Name, Last_Name, Major, Standing) :-
     Id=50, First_Name="Riley", Last_Name="Sanchez", Major="Computer Information Systems", Standing="Sophomore".
 
 
-Class(Id, Subject, Size_Limit) :-
+Class(Id, Subject, Size_Limit,Class_Room_Id) :-
         Id=1, Subject="Database", Size_Limit=30, Class_Room_Id=1.
-Class(Id, Subject, Size_Limit) :-
+Class(Id, Subject, Size_Limit,Class_Room_Id) :-
         Id=2, Subject="Computer Networks", Size_Limit=35, Class_Room_Id=2.
-Class(Id, Subject, Size_Limit) :-
+Class(Id, Subject, Size_Limit,Class_Room_Id) :-
         Id=3, Subject="Artificial Intelligence", Size_Limit=25, Class_Room_Id=3.
-Class(Id, Subject, Size_Limit) :-
+Class(Id, Subject, Size_Limit,Class_Room_Id) :-
         Id=4, Subject="Data Structures", Size_Limit=40, Class_Room_Id=4.
-Class(Id, Subject, Size_Limit) :-
+Class(Id, Subject, Size_Limit,Class_Room_Id) :-
         Id=5, Subject="Software Engineering", Size_Limit=28, Class_Room_Id=5.
-Class(Id, Subject, Size_Limit) :-
+Class(Id, Subject, Size_Limit,Class_Room_Id) :-
         Id=6, Subject="Machine Learning", Size_Limit=32, Class_Room_Id=6.
-Class(Id, Subject, Size_Limit) :-
+Class(Id, Subject, Size_Limit,Class_Room_Id) :-
         Id=7, Subject="Cybersecurity", Size_Limit=30, Class_Room_Id=7.
-Class(Id, Subject, Size_Limit) :-
-        Id=8, Subject="Computer Graphics", Size_Limit=25, Class_Room_Id=8.
-Class(Id, Subject, Size_Limit) :-
-        Id=9, Subject="Mobile App Development", Size_Limit=35, Class_Room_Id=9.
-Class(Id, Subject, Size_Limit) :-
-        Id=10, Subject="Web Development", Size_Limit=30, Class_Room_Id=10.
-Class(Id, Subject, Size_Limit) :-
-        Id=11, Subject="Operating Systems", Size_Limit=30, Class_Room_Id=11.
-Class(Id, Subject, Size_Limit) :-
-        Id=12, Subject="Computer Architecture", Size_Limit=25, Class_Room_Id=12.
-Class(Id, Subject, Size_Limit) :-
-        Id=13, Subject="Database Design", Size_Limit=28, Class_Room_Id=13.
-Class(Id, Subject, Size_Limit) :-
-        Id=14, Subject="Data Mining", Size_Limit=30, Class_Room_Id=14.
-Class(Id, Subject, Size_Limit) :-
-        Id=15, Subject="Information Security", Size_Limit=25, Class_Room_Id=15.
-Class(Id, Subject, Size_Limit) :-
-        Id=16, Subject="Computer Ethics", Size_Limit=32, Class_Room_Id=16.
-Class(Id, Subject, Size_Limit) :-
-        Id=17, Subject="Network Security", Size_Limit=30, Class_Room_Id=17.
-Class(Id, Subject, Size_Limit) :-
-        Id=18, Subject="Computer Vision", Size_Limit=28, Class_Room_Id=18.
-Class(Id, Subject, Size_Limit) :-
-        Id=19, Subject="Programming Languages", Size_Limit=35, Class_Room_Id=19.
-Class(Id, Subject, Size_Limit) :-
-        Id=20, Subject="Big Data Analytics", Size_Limit=30, Class_Room_Id=20.
-Class(Id, Subject, Size_Limit) :-
-        Id=21, Subject="Cloud Computing", Size_Limit=30, Class_Room_Id=21.
-Class(Id, Subject, Size_Limit) :-
-        Id=22, Subject="Human-Computer Interaction", Size_Limit=25, Class_Room_Id=22.
-Class(Id, Subject, Size_Limit) :-
-        Id=23, Subject="Computer Forensics", Size_Limit=28, Class_Room_Id=23.
-Class(Id, Subject, Size_Limit) :-
-        Id=24, Subject="Software Testing", Size_Limit=30, Class_Room_Id=24.
-Class(Id, Subject, Size_Limit) :-
-        Id=25, Subject="IoT (Internet of Things)", Size_Limit=25, Class_Room_Id=25.
-Class(Id, Subject, Size_Limit) :-
-        Id=26, Subject="Quantum Computing", Size_Limit=32, Class_Room_Id=26.
-Class(Id, Subject, Size_Limit) :-
-        Id=27, Subject="Computational Biology", Size_Limit=30, Class_Room_Id=27.
-Class(Id, Subject, Size_Limit) :-
-        Id=28, Subject="Ethical Hacking", Size_Limit=28, Class_Room_Id=28.
-Class(Id, Subject, Size_Limit) :-
-        Id=29, Subject="Robotics", Size_Limit=35, Class_Room_Id=29.
-Class(Id, Subject, Size_Limit) :-
-        Id=30, Subject="Information Retrieval", Size_Limit=30, Class_Room_Id=30.
-Class(Id, Subject, Size_Limit) :-
-        Id=31, Subject="Virtual Reality", Size_Limit=30, Class_Room_Id=31.
-Class(Id, Subject, Size_Limit) :-
-        Id=32, Subject="Bioinformatics", Size_Limit=25, Class_Room_Id=32.
-Class(Id, Subject, Size_Limit) :-
-        Id=33, Subject="Computer Music", Size_Limit=28, Class_Room_Id=33.
-Class(Id, Subject, Size_Limit) :-
-        Id=34, Subject="Geographic Information Systems", Size_Limit=30, Class_Room_Id=34.
-Class(Id, Subject, Size_Limit) :-
-        Id=35, Subject="Parallel Computing", Size_Limit=25, Class_Room_Id=35.
-Class(Id, Subject, Size_Limit) :-
-        Id=36, Subject="Embedded Systems", Size_Limit=32, Class_Room_Id=36.
-Class(Id, Subject, Size_Limit) :-
-        Id=37, Subject="Computational Physics", Size_Limit=30, Class_Room_Id=37.
-Class(Id, Subject, Size_Limit) :-
-        Id=38, Subject="E-commerce Technology", Size_Limit=28, Class_Room_Id=38.
-Class(Id, Subject, Size_Limit) :-
-        Id=39, Subject="Computer-assisted Design", Size_Limit=35, Class_Room_Id=39.
-Class(Id, Subject, Size_Limit) :-
-        Id=40, Subject="Biometrics", Size_Limit=30, Class_Room_Id=40.
-Class(Id, Subject, Size_Limit) :-
-        Id=41, Subject="Computational Linguistics", Size_Limit=30, Class_Room_Id=41.
-Class(Id, Subject, Size_Limit) :-
-        Id=42, Subject="Natural Language Processing", Size_Limit=25, Class_Room_Id=42.
-Class(Id, Subject, Size_Limit) :-
-        Id=43, Subject="Computer-assisted Education", Size_Limit=28, Class_Room_Id=43.
-Class(Id, Subject, Size_Limit) :-
-        Id=44, Subject="Networked Systems", Size_Limit=30, Class_Room_Id=44.
-Class(Id, Subject, Size_Limit) :-
-        Id=45, Subject="Computer Animation", Size_Limit=25, Class_Room_Id=45.
-Class(Id, Subject, Size_Limit) :-
-        Id=46, Subject="Software Maintenance", Size_Limit=32, Class_Room_Id=46.
-Class(Id, Subject, Size_Limit) :-
-        Id=47, Subject="Computational Chemistry", Size_Limit=30, Class_Room_Id=47.
-Class(Id, Subject, Size_Limit) :-
-        Id=48, Subject="Computational Neuroscience", Size_Limit=28, Class_Room_Id=48.
-Class(Id, Subject, Size_Limit) :-
-        Id=49, Subject="Computer-based Art", Size_Limit=35, Class_Room_Id=49.
-Class(Id, Subject, Size_Limit) :-
-        Id=50, Subject="Computational Sociology", Size_Limit=30, Class_Room_Id=50.
+Class(Id, Subject, Size_Limit,Class_Room_Id) :-
+        Id=8, Subject="Computer Graphics", Size_Limit=25, Class_Room_Id=6.
+Class(Id, Subject, Size_Limit,Class_Room_Id) :-
+        Id=9, Subject="Mobile App Development", Size_Limit=35, Class_Room_Id=5.
+Class(Id, Subject, Size_Limit,Class_Room_Id) :-
+        Id=10, Subject="Web Development", Size_Limit=30, Class_Room_Id=6.
+Class(Id, Subject, Size_Limit,Class_Room_Id) :-
+        Id=11, Subject="Operating Systems", Size_Limit=30, Class_Room_Id=4.
+Class(Id, Subject, Size_Limit,Class_Room_Id) :-
+        Id=12, Subject="Computer Architecture", Size_Limit=25, Class_Room_Id=3.
+Class(Id, Subject, Size_Limit,Class_Room_Id) :-
+        Id=13, Subject="Database Design", Size_Limit=28, Class_Room_Id=13,Class_Room_Id=5.
+Class(Id, Subject, Size_Limit,Class_Room_Id) :-
+        Id=14, Subject="Data Mining", Size_Limit=30, Class_Room_Id=2.
+Class(Id, Subject, Size_Limit,Class_Room_Id) :-
+        Id=15, Subject="Information Security", Size_Limit=25, Class_Room_Id=4.
+Class(Id, Subject, Size_Limit,Class_Room_Id) :-
+        Id=16, Subject="Computer Ethics", Size_Limit=32, Class_Room_Id=2.
+Class(Id, Subject, Size_Limit,Class_Room_Id) :-
+        Id=17, Subject="Network Security", Size_Limit=30, Class_Room_Id=1.
+Class(Id, Subject, Size_Limit,Class_Room_Id) :-
+        Id=18, Subject="Computer Vision", Size_Limit=28, Class_Room_Id=1.
+Class(Id, Subject, Size_Limit,Class_Room_Id) :-
+        Id=19, Subject="Programming Languages", Size_Limit=35, Class_Room_Id=3.
+Class(Id, Subject, Size_Limit,Class_Room_Id) :-
+        Id=20, Subject="Big Data Analytics", Size_Limit=30, Class_Room_Id=3.
+
+
+
+
+
+
+Instructor(Id, First_Name, Last_Name, Department, Degree, x, y) :-
+    Id=1, First_Name="Mo", Last_Name="Ragab", Department="Math", Degree="PHD in Math", x=1.5, y=2.0.
+
+Instructor(Id, First_Name, Last_Name, Department, Degree, x, y) :-
+    Id=2, First_Name="Sarah", Last_Name="Johnson", Department="Computer Science", Degree="MS in Computer Science", x=3.0, y=1.8.
+
+Instructor(Id, First_Name, Last_Name, Department, Degree, x, y) :-
+    Id=3, First_Name="David", Last_Name="Garcia", Department="Engineering", Degree="Ph.D. in Engineering", x=2.2, y=4.5.
+
+Instructor(Id, First_Name, Last_Name, Department, Degree, x, y) :-
+    Id=4, First_Name="Emily", Last_Name="Thompson", Department="Biology", Degree="Ph.D. in Biology", x=4.5, y=3.7.
+
+Instructor(Id, First_Name, Last_Name, Department, Degree, x, y) :-
+    Id=5, First_Name="Michael", Last_Name="Williams", Department="Physics", Degree="MS in Physics", x=2.8, y=5.0.
+
+Instructor(Id, First_Name, Last_Name, Department, Degree, x, y) :-
+    Id=6, First_Name="Olivia", Last_Name="Martinez", Department="Chemistry", Degree="Ph.D. in Chemistry", x=4.0, y=4.2.
+
+Instructor(Id, First_Name, Last_Name, Department, Degree, x, y) :-
+    Id=7, First_Name="James", Last_Name="Brown", Department="Psychology", Degree="Ph.D. in Psychology", x=3.2, y=2.5.
+
+Instructor(Id, First_Name, Last_Name, Department, Degree, x, y) :-
+    Id=8, First_Name="Sophia", Last_Name="Rodriguez", Department="Sociology", Degree="MS in Sociology", x=2.0, y=3.0.
+
+Instructor(Id, First_Name, Last_Name, Department, Degree, x, y) :-
+    Id=9, First_Name="Daniel", Last_Name="Nguyen", Department="Economics", Degree="Ph.D. in Economics", x=1.7, y=2.8.
+
+Instructor(Id, First_Name, Last_Name, Department, Degree, x, y) :-
+    Id=10, First_Name="Lily", Last_Name="Lopez", Department="History", Degree="MA in History", x=3.5, y=4.0.
 
 
 
@@ -258,312 +233,51 @@ Class(Id, Subject, Size_Limit) :-
 
 
 
-
-Instructor(Id, First_Name, Last_Name, Department, Degree, X, Y) :-
-    Id=1, First_Name="Mo", Last_Name="Ragab", Department="Math", Degree="PHD in Math", X=1.5, Y=2.0.
-
-Instructor(Id, First_Name, Last_Name, Department, Degree, X, Y) :-
-    Id=2, First_Name="Sarah", Last_Name="Johnson", Department="Computer Science", Degree="MS in Computer Science", X=3.0, Y=1.8.
-
-Instructor(Id, First_Name, Last_Name, Department, Degree, X, Y) :-
-    Id=3, First_Name="David", Last_Name="Garcia", Department="Engineering", Degree="Ph.D. in Engineering", X=2.2, Y=4.5.
-
-Instructor(Id, First_Name, Last_Name, Department, Degree, X, Y) :-
-    Id=4, First_Name="Emily", Last_Name="Thompson", Department="Biology", Degree="Ph.D. in Biology", X=4.5, Y=3.7.
-
-Instructor(Id, First_Name, Last_Name, Department, Degree, X, Y) :-
-    Id=5, First_Name="Michael", Last_Name="Williams", Department="Physics", Degree="MS in Physics", X=2.8, Y=5.0.
-
-Instructor(Id, First_Name, Last_Name, Department, Degree, X, Y) :-
-    Id=6, First_Name="Olivia", Last_Name="Martinez", Department="Chemistry", Degree="Ph.D. in Chemistry", X=4.0, Y=4.2.
-
-Instructor(Id, First_Name, Last_Name, Department, Degree, X, Y) :-
-    Id=7, First_Name="James", Last_Name="Brown", Department="Psychology", Degree="Ph.D. in Psychology", X=3.2, Y=2.5.
-
-Instructor(Id, First_Name, Last_Name, Department, Degree, X, Y) :-
-    Id=8, First_Name="Sophia", Last_Name="Rodriguez", Department="Sociology", Degree="MS in Sociology", X=2.0, Y=3.0.
-
-Instructor(Id, First_Name, Last_Name, Department, Degree, X, Y) :-
-    Id=9, First_Name="Daniel", Last_Name="Nguyen", Department="Economics", Degree="Ph.D. in Economics", X=1.7, Y=2.8.
-
-Instructor(Id, First_Name, Last_Name, Department, Degree, X, Y) :-
-    Id=10, First_Name="Lily", Last_Name="Lopez", Department="History", Degree="MA in History", X=3.5, Y=4.0.
-
-Instructor(Id, First_Name, Last_Name, Department, Degree, X, Y) :-
-    Id=11, First_Name="William", Last_Name="Hernandez", Department="English", Degree="Ph.D. in English Literature", X=4.1, Y=3.9.
-
-Instructor(Id, First_Name, Last_Name, Department, Degree, X, Y) :-
-    Id=12, First_Name="Ava", Last_Name="Torres", Department="Political Science", Degree="MS in Political Science", X=2.6, Y=2.3.
-
-Instructor(Id, First_Name, Last_Name, Department, Degree, X, Y) :-
-    Id=13, First_Name="Lucas", Last_Name="Gomez", Department="Philosophy", Degree="Ph.D. in Philosophy", X=1.9, Y=3.2.
-
-Instructor(Id, First_Name, Last_Name, Department, Degree, X, Y) :-
-    Id=14, First_Name="Emma", Last_Name="Clark", Department="Business", Degree="MBA", X=3.8, Y=4.3.
-
-Instructor(Id, First_Name, Last_Name, Department, Degree, X, Y) :-
-    Id=15, First_Name="Mia", Last_Name="Perez", Department="Art", Degree="MFA in Fine Arts", X=2.3, Y=1.9.
-
-Instructor(Id, First_Name, Last_Name, Department, Degree, X, Y) :-
-    Id=16, First_Name="Benjamin", Last_Name="Flores", Department="Health Sciences", Degree="Ph.D. in Health Sciences", X=3.7, Y=4.7.
-
-Instructor(Id, First_Name, Last_Name, Department, Degree, X, Y) :-
-    Id=17, First_Name="Ella", Last_Name="Butler", Department="Environmental Science", Degree="MS in Environmental Science", X=4.2, Y=2.1.
-
-Instructor(Id, First_Name, Last_Name, Department, Degree, X, Y) :-
-    Id=18, First_Name="Henry", Last_Name="Adams", Department="Music", Degree="MA in Music", X=1.2, Y=3.6.
-
-Instructor(Id, First_Name, Last_Name, Department, Degree, X, Y) :-
-    Id=19, First_Name="Victoria", Last_Name="Martin", Department="Dance", Degree="MFA in Dance", X=2.9, Y=4.5.
-
-Instructor(Id, First_Name, Last_Name, Department, Degree, X, Y) :-
-    Id=20, First_Name="Jackson", Last_Name="Gonzalez", Department="Theater Arts", Degree="MFA in Theater Arts", X=3.6, Y=2.7.
-
-Instructor(Id, First_Name, Last_Name, Department, Degree, X, Y) :-
-    Id=21, First_Name="Grace", Last_Name="Rodriguez", Department="Computer Engineering", Degree="Ph.D. in Computer Engineering", X=2.5, Y=3.5.
-
-Instructor(Id, First_Name, Last_Name, Department, Degree, X, Y) :-
-    Id=22, First_Name="Ethan", Last_Name="Martinez", Department="Electrical Engineering", Degree="MS in Electrical Engineering", X=3.4, Y=4.8.
-
-Instructor(Id, First_Name, Last_Name, Department, Degree, X, Y) :-
-    Id=23, First_Name="Avery", Last_Name="Lopez", Department="Mechanical Engineering", Degree="Ph.D. in Mechanical Engineering", X=4.7, Y=3.4.
-
-Instructor(Id, First_Name, Last_Name, Department, Degree, X, Y) :-
-    Id=24, First_Name="Sofia", Last_Name="Garcia", Department="Chemical Engineering", Degree="MS in Chemical Engineering", X=2.1, Y=2.2.
-
-Instructor(Id, First_Name, Last_Name, Department, Degree, X, Y) :-
-    Id=25, First_Name="Lucas", Last_Name="Nguyen", Department="Biomedical Engineering", Degree="Ph.D. in Biomedical Engineering", X=1.8, Y=4.1.
-
-Instructor(Id, First_Name, Last_Name, Department, Degree, X, Y) :-
-    Id=26, First_Name="Emma", Last_Name="Hernandez", Department="Civil Engineering", Degree="MS in Civil Engineering", X=3.3, Y=1.5.
-
-Instructor(Id, First_Name, Last_Name, Department, Degree, X, Y) :-
-    Id=27, First_Name="William", Last_Name="Clark", Department="Environmental Engineering", Degree="Ph.D. in Environmental Engineering", X=4.3, Y=2.8.
-
-Instructor(Id, First_Name, Last_Name, Department, Degree, X, Y) :-
-    Id=28, First_Name="Sophia", Last_Name="Perez", Department="Industrial Engineering", Degree="MS in Industrial Engineering", X=1.6, Y=4.0.
-
-Instructor(Id, First_Name, Last_Name, Department, Degree, X, Y) :-
-    Id=29, First_Name="Elijah", Last_Name="Thompson", Department="Materials Science", Degree="Ph.D. in Materials Science", X=2.4, Y=3.3.
-
-Instructor(Id, First_Name, Last_Name, Department, Degree, X, Y) :-
-    Id=30, First_Name="Mia", Last_Name="Martin", Department="Nuclear Engineering", Degree="MS in Nuclear Engineering", X=3.9, Y=1.7.
-
-Instructor(Id, First_Name, Last_Name, Department, Degree, X, Y) :-
-    Id=31, First_Name="Olivia", Last_Name="Rodriguez", Department="Mathematics", Degree="Ph.D. in Mathematics", X=2.7, Y=4.2.
-
-Instructor(Id, First_Name, Last_Name, Department, Degree, X, Y) :-
-    Id=32, First_Name="Daniel", Last_Name="Gonzalez", Department="Statistics", Degree="MS in Statistics", X=3.6, Y=3.0.
-
-Instructor(Id, First_Name, Last_Name, Department, Degree, X, Y) :-
-    Id=33, First_Name="Ava", Last_Name="Flores", Department="Physics", Degree="Ph.D. in Physics", X=4.5, Y=2.3.
-
-Instructor(Id, First_Name, Last_Name, Department, Degree, X, Y) :-
-    Id=34, First_Name="David", Last_Name="Butler", Department="Chemistry", Degree="Ph.D. in Chemistry", X=1.3, Y=3.9.
-
-Instructor(Id, First_Name, Last_Name, Department, Degree, X, Y) :-
-    Id=35, First_Name="Sophia", Last_Name="Adams", Department="Biology", Degree="MS in Biology", X=3.2, Y=4.6.
-
-Instructor(Id, First_Name, Last_Name, Department, Degree, X, Y) :-
-    Id=36, First_Name="Henry", Last_Name="Lopez", Department="Geology", Degree="Ph.D. in Geology", X=2.0, Y=1.9.
-
-Instructor(Id, First_Name, Last_Name, Department, Degree, X, Y) :-
-    Id=37, First_Name="Grace", Last_Name="Garcia", Department="Astronomy", Degree="MS in Astronomy", X=3.7, Y=2.0.
-
-Instructor(Id, First_Name, Last_Name, Department, Degree, X, Y) :-
-    Id=38, First_Name="Benjamin", Last_Name="Nguyen", Department="Psychology", Degree="Ph.D. in Psychology", X=1.8, Y=4.5.
-
-Instructor(Id, First_Name, Last_Name, Department, Degree, X, Y) :-
-    Id=39, First_Name="Avery", Last_Name="Hernandez", Department="Sociology", Degree="MS in Sociology", X=2.4, Y=3.2.
-
-Instructor(Id, First_Name, Last_Name, Department, Degree, X, Y) :-
-    Id=40, First_Name="Ella", Last_Name="Clark", Department="Anthropology", Degree="Ph.D. in Anthropology", X=3.9, Y=3.9.
-
-Instructor(Id, First_Name, Last_Name, Department, Degree, X, Y) :-
-    Id=41, First_Name="James", Last_Name="Perez", Department="Political Science", Degree="MS in Political Science", X=1.9, Y=2.1.
-
-Instructor(Id, First_Name, Last_Name, Department, Degree, X, Y) :-
-    Id=42, First_Name="Emma", Last_Name="Martinez", Department="Criminal Justice", Degree="Ph.D. in Criminal Justice", X=3.1, Y=4.7.
-
-Instructor(Id, First_Name, Last_Name, Department, Degree, X, Y) :-
-    Id=43, First_Name="William", Last_Name="Gomez", Department="Public Health", Degree="MS in Public Health", X=4.0, Y=3.0.
-
-Instructor(Id, First_Name, Last_Name, Department, Degree, X, Y) :-
-    Id=44, First_Name="Sophia", Last_Name="Nguyen", Department="Economics", Degree="Ph.D. in Economics", X=2.5, Y=4.2.
-
-Instructor(Id, First_Name, Last_Name, Department, Degree, X, Y) :-
-    Id=45, First_Name="Lucas", Last_Name="Lopez", Department="History", Degree="MA in History", X=3.6, Y=2.4.
-
-Instructor(Id, First_Name, Last_Name, Department, Degree, X, Y) :-
-    Id=46, First_Name="Ella", Last_Name="Garcia", Department="English", Degree="Ph.D. in English Literature", X=1.6, Y=3.6.
-
-Instructor(Id, First_Name, Last_Name, Department, Degree, X, Y) :-
-    Id=47, First_Name="Henry", Last_Name="Rodriguez", Department="Philosophy", Degree="MS in Philosophy", X=4.2, Y=4.1.
-
-Instructor(Id, First_Name, Last_Name, Department, Degree, X, Y) :-
-    Id=48, First_Name="Victoria", Last_Name="Clark", Department="Business", Degree="MBA", X=2.8, Y=1.7.
-
-Instructor(Id, First_Name, Last_Name, Department, Degree, X, Y) :-
-    Id=49, First_Name="Daniel", Last_Name="Martinez", Department="Art", Degree="MFA in Fine Arts", X=3.3, Y=3.3.
-
-Instructor(Id, First_Name, Last_Name, Department, Degree, X, Y) :-
-    Id=50, First_Name="Olivia", Last_Name="Nguyen", Department="Health Sciences", Degree="Ph.D. in Health Sciences", X=1.7, Y=4.6.
-
-
-
-
-
-
+Class_Room(Id, Capacity, Room_Number, Building_Id, Type, x, y) :-
+    Id=1, Capacity=30, Room_Number=326, Building_Id=1, Type="Interactive Computer Classrooms", x=155.6, y=784.5.
 
 Class_Room(Id, Capacity, Room_Number, Building, Type, x, y) :-
-    Id=1, Capacity=30, Room_Number=326, Building="Avery", Type="Interactive Computer Classrooms", x=155.6, y=784.5.
+    Id=2, Capacity=25, Room_Number=210, Building_Id=1, Type="Seminar Room", x=140.2, y=780.3.
 
 Class_Room(Id, Capacity, Room_Number, Building, Type, x, y) :-
-    Id=2, Capacity=25, Room_Number=210, Building="Avery", Type="Seminar Room", x=140.2, y=780.3.
+    Id=3, Capacity=40, Room_Number=401, Building_Id=2, Type="Lecture Hall", x=160.7, y=790.8.
 
 Class_Room(Id, Capacity, Room_Number, Building, Type, x, y) :-
-    Id=3, Capacity=40, Room_Number=401, Building="Avery", Type="Lecture Hall", x=160.7, y=790.8.
+    Id=4, Capacity=35, Room_Number=505, Building_Id=3, Type="Laboratory", x=170.5, y=775.9.
 
 Class_Room(Id, Capacity, Room_Number, Building, Type, x, y) :-
-    Id=4, Capacity=35, Room_Number=505, Building="Avery", Type="Laboratory", x=170.5, y=775.9.
+    Id=5, Capacity=30, Room_Number=128, Building_Id=2, Type="Discussion Room", x=190.4, y=770.2.
 
 Class_Room(Id, Capacity, Room_Number, Building, Type, x, y) :-
-    Id=5, Capacity=30, Room_Number=128, Building="Baker", Type="Discussion Room", x=190.4, y=770.2.
+    Id=6, Capacity=28, Room_Number=201, Building_Id=3, Type="Classroom", x=200.1, y=765.6.
 
 Class_Room(Id, Capacity, Room_Number, Building, Type, x, y) :-
-    Id=6, Capacity=28, Room_Number=201, Building="Baker", Type="Classroom", x=200.1, y=765.6.
+    Id=7, Capacity=32, Room_Number=412, Building_Id=4, Type="Seminar Room", x=210.8, y=755.3.
 
 Class_Room(Id, Capacity, Room_Number, Building, Type, x, y) :-
-    Id=7, Capacity=32, Room_Number=412, Building="Baker", Type="Seminar Room", x=210.8, y=755.3.
+    Id=8, Capacity=25, Room_Number=315, Building_Id=4, Type="Classroom", x=220.6, y=745.7.
 
 Class_Room(Id, Capacity, Room_Number, Building, Type, x, y) :-
-    Id=8, Capacity=25, Room_Number=315, Building="Baker", Type="Classroom", x=220.6, y=745.7.
+    Id=9, Capacity=35, Room_Number=520, Building_Id=5, Type="Computer Lab", x=230.3, y=735.1.
 
 Class_Room(Id, Capacity, Room_Number, Building, Type, x, y) :-
-    Id=9, Capacity=35, Room_Number=520, Building="Clark", Type="Computer Lab", x=230.3, y=735.1.
+    Id=10, Capacity=30, Room_Number=202, Building_Id=1, Type="Classroom", x=240.0, y=725.5.
 
 Class_Room(Id, Capacity, Room_Number, Building, Type, x, y) :-
-    Id=10, Capacity=30, Room_Number=202, Building="Clark", Type="Classroom", x=240.0, y=725.5.
+    Id=11, Capacity=28, Room_Number=415, Building_Id=2, Type="Seminar Room", x=250.7, y=715.9.
 
 Class_Room(Id, Capacity, Room_Number, Building, Type, x, y) :-
-    Id=11, Capacity=28, Room_Number=415, Building="Clark", Type="Seminar Room", x=250.7, y=715.9.
+    Id=12, Capacity=32, Room_Number=128, Building_Id=3, Type="Lecture Hall", x=260.4, y=705.3.
 
 Class_Room(Id, Capacity, Room_Number, Building, Type, x, y) :-
-    Id=12, Capacity=32, Room_Number=128, Building="Diaz", Type="Lecture Hall", x=260.4, y=705.3.
+    Id=13, Capacity=25, Room_Number=212, Building_Id=6, Type="Discussion Room", x=270.1, y=695.7.
 
 Class_Room(Id, Capacity, Room_Number, Building, Type, x, y) :-
-    Id=13, Capacity=25, Room_Number=212, Building="Diaz", Type="Discussion Room", x=270.1, y=695.7.
+    Id=14, Capacity=30, Room_Number=325, Building_Id=6, Type="Classroom", x=280.8, y=686.1.
 
 Class_Room(Id, Capacity, Room_Number, Building, Type, x, y) :-
-    Id=14, Capacity=30, Room_Number=325, Building="Diaz", Type="Classroom", x=280.8, y=686.1.
+    Id=15, Capacity=35, Room_Number=520, Building_Id=6, Type="Computer Lab", x=290.5, y=676.5.
 
-Class_Room(Id, Capacity, Room_Number, Building, Type, x, y) :-
-    Id=15, Capacity=35, Room_Number=520, Building="Fernandez", Type="Computer Lab", x=290.5, y=676.5.
-
-Class_Room(Id, Capacity, Room_Number, Building, Type, x, y) :-
-    Id=16, Capacity=30, Room_Number=201, Building="Fernandez", Type="Classroom", x=300.2, y=666.9.
-
-Class_Room(Id, Capacity, Room_Number, Building, Type, x, y) :-
-    Id=17, Capacity=28, Room_Number=415, Building="Fernandez", Type="Seminar Room", x=310.9, y=657.3.
-
-Class_Room(Id, Capacity, Room_Number, Building, Type, x, y) :-
-    Id=18, Capacity=32, Room_Number=128, Building="Garcia", Type="Lecture Hall", x=320.6, y=647.7.
-
-Class_Room(Id, Capacity, Room_Number, Building, Type, x, y) :-
-    Id=19, Capacity=25, Room_Number=212, Building="Garcia", Type="Discussion Room", x=330.3, y=638.1.
-
-Class_Room(Id, Capacity, Room_Number, Building, Type, x, y) :-
-    Id=20, Capacity=30, Room_Number=325, Building="Garcia", Type="Classroom", x=340.0, y=628.5.
-
-Class_Room(Id, Capacity, Room_Number, Building, Type, x, y) :-
-    Id=21, Capacity=28, Room_Number=415, Building="Hamilton", Type="Seminar Room", x=350.7, y=618.9.
-
-Class_Room(Id, Capacity, Room_Number, Building, Type, x, y) :-
-    Id=22, Capacity=32, Room_Number=128, Building="Hamilton", Type="Lecture Hall", x=360.4, y=609.3.
-
-Class_Room(Id, Capacity, Room_Number, Building, Type, x, y) :-
-    Id=23, Capacity=25, Room_Number=212, Building="Hamilton", Type="Discussion Room", x=370.1, y=599.7.
-
-Class_Room(Id, Capacity, Room_Number, Building, Type, x, y) :-
-    Id=24, Capacity=30, Room_Number=325, Building="Johnson", Type="Classroom", x=380.8, y=590.1.
-
-Class_Room(Id, Capacity, Room_Number, Building, Type, x, y) :-
-    Id=25, Capacity=35, Room_Number=520, Building="Johnson", Type="Computer Lab", x=390.5, y=580.5.
-
-Class_Room(Id, Capacity, Room_Number, Building, Type, x, y) :-
-    Id=26, Capacity=30, Room_Number=201, Building="Johnson", Type="Classroom", x=400.2, y=570.9.
-
-Class_Room(Id, Capacity, Room_Number, Building, Type, x, y) :-
-    Id=27, Capacity=28, Room_Number=415, Building="Johnson", Type="Seminar Room", x=410.9, y=561.3.
-
-Class_Room(Id, Capacity, Room_Number, Building, Type, x, y) :-
-    Id=28, Capacity=32, Room_Number=128, Building="Lopez", Type="Lecture Hall", x=420.6, y=551.7.
-
-Class_Room(Id, Capacity, Room_Number, Building, Type, x, y) :-
-    Id=29, Capacity=25, Room_Number=212, Building="Lopez", Type="Discussion Room", x=430.3, y=542.1.
-
-Class_Room(Id, Capacity, Room_Number, Building, Type, x, y) :-
-    Id=30, Capacity=30, Room_Number=325, Building="Lopez", Type="Classroom", x=440.0, y=532.5.
-
-Class_Room(Id, Capacity, Room_Number, Building, Type, x, y) :-
-    Id=31, Capacity=28, Room_Number=415, Building="Martinez", Type="Seminar Room", x=450.7, y=522.9.
-
-Class_Room(Id, Capacity, Room_Number, Building, Type, x, y) :-
-    Id=32, Capacity=32, Room_Number=128, Building="Martinez", Type="Lecture Hall", x=460.4, y=513.3.
-
-Class_Room(Id, Capacity, Room_Number, Building, Type, x, y) :-
-    Id=33, Capacity=25, Room_Number=212, Building="Martinez", Type="Discussion Room", x=470.1, y=503.7.
-
-Class_Room(Id, Capacity, Room_Number, Building, Type, x, y) :-
-    Id=34, Capacity=30, Room_Number=325, Building="Nguyen", Type="Classroom", x=480.8, y=494.1.
-
-Class_Room(Id, Capacity, Room_Number, Building, Type, x, y) :-
-    Id=35, Capacity=35, Room_Number=520, Building="Nguyen", Type="Computer Lab", x=490.5, y=484.5.
-
-Class_Room(Id, Capacity, Room_Number, Building, Type, x, y) :-
-    Id=36, Capacity=30, Room_Number=201, Building="Nguyen", Type="Classroom", x=500.2, y=474.9.
-
-Class_Room(Id, Capacity, Room_Number, Building, Type, x, y) :-
-    Id=37, Capacity=28, Room_Number=415, Building="Perez", Type="Seminar Room", x=510.9, y=465.3.
-
-Class_Room(Id, Capacity, Room_Number, Building, Type, x, y) :-
-    Id=38, Capacity=32, Room_Number=128, Building="Perez", Type="Lecture Hall", x=520.6, y=455.7.
-
-Class_Room(Id, Capacity, Room_Number, Building, Type, x, y) :-
-    Id=39, Capacity=25, Room_Number=212, Building="Perez", Type="Discussion Room", x=530.3, y=446.1.
-
-Class_Room(Id, Capacity, Room_Number, Building, Type, x, y) :-
-    Id=40, Capacity=30, Room_Number=325, Building="Ramirez", Type="Classroom", x=540.0, y=436.5.
-
-Class_Room(Id, Capacity, Room_Number, Building, Type, x, y) :-
-    Id=41, Capacity=28, Room_Number=415, Building="Reyes", Type="Seminar Room", x=550.7, y=426.9.
-
-Class_Room(Id, Capacity, Room_Number, Building, Type, x, y) :-
-    Id=42, Capacity=32, Room_Number=128, Building="Reyes", Type="Lecture Hall", x=560.4, y=417.3.
-
-Class_Room(Id, Capacity, Room_Number, Building, Type, x, y) :-
-    Id=43, Capacity=25, Room_Number=212, Building="Reyes", Type="Discussion Room", x=570.1, y=407.7.
-
-Class_Room(Id, Capacity, Room_Number, Building, Type, x, y) :-
-    Id=44, Capacity=30, Room_Number=325, Building="Sanchez", Type="Classroom", x=580.8, y=398.1.
-
-Class_Room(Id, Capacity, Room_Number, Building, Type, x, y) :-
-    Id=45, Capacity=35, Room_Number=520, Building="Sanchez", Type="Computer Lab", x=590.5, y=388.5.
-
-Class_Room(Id, Capacity, Room_Number, Building, Type, x, y) :-
-    Id=46, Capacity=30, Room_Number=201, Building="Sanchez", Type="Classroom", x=600.2, y=378.9.
-
-Class_Room(Id, Capacity, Room_Number, Building, Type, x, y) :-
-    Id=47, Capacity=28, Room_Number=415, Building="Smith", Type="Seminar Room", x=610.9, y=369.3.
-
-Class_Room(Id, Capacity, Room_Number, Building, Type, x, y) :-
-    Id=48, Capacity=32, Room_Number=128, Building="Smith", Type="Lecture Hall", x=620.6, y=359.7.
-
-Class_Room(Id, Capacity, Room_Number, Building, Type, x, y) :-
-    Id=49, Capacity=25, Room_Number=212, Building="Smith", Type="Discussion Room", x=630.3, y=350.1.
-
-Class_Room(Id, Capacity, Room_Number, Building, Type, x, y) :-
-    Id=50, Capacity=30, Room_Number=325, Building="Smith", Type="Classroom", x=640.0, y=340.5.
 
 
 
@@ -1470,6 +1184,8 @@ Attend(Student_Id, Class_Id) :-
 
 Attend(Student_Id, Class_Id) :-
     Student_Id=50, Class_Id=30.
+
+
 
 
 
