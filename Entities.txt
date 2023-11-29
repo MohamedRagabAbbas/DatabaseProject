@@ -195,37 +195,11 @@ Class(Id, Subject, Size_Limit,Class_Room_Id) :-
 
 
 
-
-
-Instructor(Id, First_Name, Last_Name, Department, Degree, x, y) :-
-    Id=1, First_Name="Mo", Last_Name="Ragab", Department="Math", Degree="PHD in Math", x=1.5, y=2.0.
+Instructor_Location(id, x, y) :- id = 1,x>=100,x<=150, y>=1000,y<=1050.
 
 Instructor(Id, First_Name, Last_Name, Department, Degree, x, y) :-
-    Id=2, First_Name="Sarah", Last_Name="Johnson", Department="Computer Science", Degree="MS in Computer Science", x=3.0, y=1.8.
+    Id=1, First_Name="Mo", Last_Name="Ragab", Department="Math", Degree="PHD in Math".
 
-Instructor(Id, First_Name, Last_Name, Department, Degree, x, y) :-
-    Id=3, First_Name="David", Last_Name="Garcia", Department="Engineering", Degree="Ph.D. in Engineering", x=2.2, y=4.5.
-
-Instructor(Id, First_Name, Last_Name, Department, Degree, x, y) :-
-    Id=4, First_Name="Emily", Last_Name="Thompson", Department="Biology", Degree="Ph.D. in Biology", x=4.5, y=3.7.
-
-Instructor(Id, First_Name, Last_Name, Department, Degree, x, y) :-
-    Id=5, First_Name="Michael", Last_Name="Williams", Department="Physics", Degree="MS in Physics", x=2.8, y=5.0.
-
-Instructor(Id, First_Name, Last_Name, Department, Degree, x, y) :-
-    Id=6, First_Name="Olivia", Last_Name="Martinez", Department="Chemistry", Degree="Ph.D. in Chemistry", x=4.0, y=4.2.
-
-Instructor(Id, First_Name, Last_Name, Department, Degree, x, y) :-
-    Id=7, First_Name="James", Last_Name="Brown", Department="Psychology", Degree="Ph.D. in Psychology", x=3.2, y=2.5.
-
-Instructor(Id, First_Name, Last_Name, Department, Degree, x, y) :-
-    Id=8, First_Name="Sophia", Last_Name="Rodriguez", Department="Sociology", Degree="MS in Sociology", x=2.0, y=3.0.
-
-Instructor(Id, First_Name, Last_Name, Department, Degree, x, y) :-
-    Id=9, First_Name="Daniel", Last_Name="Nguyen", Department="Economics", Degree="Ph.D. in Economics", x=1.7, y=2.8.
-
-Instructor(Id, First_Name, Last_Name, Department, Degree, x, y) :-
-    Id=10, First_Name="Lily", Last_Name="Lopez", Department="History", Degree="MA in History", x=3.5, y=4.0.
 
 
 
