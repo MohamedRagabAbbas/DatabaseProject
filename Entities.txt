@@ -1222,7 +1222,11 @@ Entry(id, x, y):- id=4,x=1400,y=550.
 Entry(id, x, y):- id=5,x=1400,y=250.
 Entry(id, x, y):- id=6,x=450,y=200.
 
+Find_Distance(a, b, c, d, distance) :-  distance -c+a - d+b=0,c-a>=0,d-b>=0.
+Find_Distance(a, b, c, d, distance) :-  distance -a+c - b+d=0,a-c>=0,b-d>=0.
+Find_Distance(a, b, c, d, distance) :-  distance-c+a -b+d =0,c-a>=0,b-d>=0.
+Find_Distance(a, b, c, d, distance) :-  distance -a+c -d+b=0,a-c>=0,d-b>=0.
 
-
+Find_Time(distance,time):- 80time - distance = 0.
 
 end%MLPQ%
