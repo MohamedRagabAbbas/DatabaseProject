@@ -249,7 +249,7 @@ Class_Room(Id, Capacity, Room_Number, Building, Type, x, y) :-
     Id=5, Capacity=30, Room_Number=128, Building_Id=2, Type="Discussion Room", x=190.4, y=770.2.
 
 Class_Room(Id, Capacity, Room_Number, Building, Type, x, y) :-
-    Id=6, Capacity=28, Room_Number=201, Building_Id=3, Type="Classroom", x=200.1, y=765.6.
+    Id=6, Capacity=28, Room_Number=201, Building_Id=5, Type="Classroom", x=200.1, y=765.6.
 
 Class_Room(Id, Capacity, Room_Number, Building, Type, x, y) :-
     Id=7, Capacity=32, Room_Number=412, Building_Id=4, Type="Seminar Room", x=210.8, y=755.3.
@@ -286,7 +286,7 @@ Teach(Instructor_Id, Class_Id, Day, Starting_Time, Ending_Time) :-
     Instructor_Id=1, Class_Id=3, Day="Monday", Starting_Time=10, Ending_Time=11.
 
 Teach(Instructor_Id, Class_Id, Day, Starting_Time, Ending_Time) :-
-    Instructor_Id=2, Class_Id=8, Day="Tuesday", Starting_Time=9, Ending_Time=10.
+    Instructor_Id=1, Class_Id=8, Day="Monday", Starting_Time=11.25, Ending_Time=12.25.
 
 Teach(Instructor_Id, Class_Id, Day, Starting_Time, Ending_Time) :-
     Instructor_Id=3, Class_Id=12, Day="Wednesday", Starting_Time=11, Ending_Time=12.
@@ -569,7 +569,7 @@ Attend(Student_Id, Class_Id) :-
     Student_Id=1, Class_Id=3.
 
 Attend(Student_Id, Class_Id) :-
-    Student_Id=1, Class_Id=5.
+    Student_Id=10, Class_Id=3.
 
 Attend(Student_Id, Class_Id) :-
     Student_Id=1, Class_Id=7.
@@ -587,7 +587,7 @@ Attend(Student_Id, Class_Id) :-
     Student_Id=2, Class_Id=4.
 
 Attend(Student_Id, Class_Id) :-
-    Student_Id=2, Class_Id=6.
+    Student_Id=2, Class_Id=3.
 
 Attend(Student_Id, Class_Id) :-
     Student_Id=2, Class_Id=8.
@@ -608,7 +608,7 @@ Attend(Student_Id, Class_Id) :-
     Student_Id=3, Class_Id=7.
 
 Attend(Student_Id, Class_Id) :-
-    Student_Id=4, Class_Id=12.
+    Student_Id=4, Class_Id=3.
 
 Attend(Student_Id, Class_Id) :-
     Student_Id=4, Class_Id=14.
@@ -626,7 +626,7 @@ Attend(Student_Id, Class_Id) :-
     Student_Id=5, Class_Id=21.
 
 Attend(Student_Id, Class_Id) :-
-    Student_Id=5, Class_Id=23.
+    Student_Id=5, Class_Id=3.
 
 Attend(Student_Id, Class_Id) :-
     Student_Id=5, Class_Id=25.
@@ -655,7 +655,7 @@ Attend(Student_Id, Class_Id) :-
     Student_Id=7, Class_Id=31.
 
 Attend(Student_Id, Class_Id) :-
-    Student_Id=7, Class_Id=43.
+    Student_Id=7, Class_Id=3.
 
 Attend(Student_Id, Class_Id) :-
     Student_Id=7, Class_Id=15.
@@ -670,7 +670,7 @@ Attend(Student_Id, Class_Id) :-
     Student_Id=8, Class_Id=45.
 
 Attend(Student_Id, Class_Id) :-
-    Student_Id=8, Class_Id=17.
+    Student_Id=8, Class_Id=3.
 
 Attend(Student_Id, Class_Id) :-
     Student_Id=8, Class_Id=29.
@@ -682,7 +682,7 @@ Attend(Student_Id, Class_Id) :-
     Student_Id=9, Class_Id=35.
 
 Attend(Student_Id, Class_Id) :-
-    Student_Id=9, Class_Id=47.
+    Student_Id=9, Class_Id=3.
 
 Attend(Student_Id, Class_Id) :-
     Student_Id=9, Class_Id=21.
@@ -703,7 +703,7 @@ Attend(Student_Id, Class_Id) :-
     Student_Id=11, Class_Id=9.
 
 Attend(Student_Id, Class_Id) :-
-    Student_Id=11, Class_Id=21.
+    Student_Id=11, Class_Id=3.
 
 Attend(Student_Id, Class_Id) :-
     Student_Id=11, Class_Id=33.
@@ -715,7 +715,7 @@ Attend(Student_Id, Class_Id) :-
     Student_Id=11, Class_Id=5.
 
 Attend(Student_Id, Class_Id) :-
-    Student_Id=12, Class_Id=17.
+    Student_Id=12, Class_Id=3.
 
 Attend(Student_Id, Class_Id) :-
     Student_Id=12, Class_Id=29.
@@ -733,7 +733,7 @@ Attend(Student_Id, Class_Id) :-
     Student_Id=13, Class_Id=23.
 
 Attend(Student_Id, Class_Id) :-
-    Student_Id=13, Class_Id=35.
+    Student_Id=13, Class_Id=3.
 
 Attend(Student_Id, Class_Id) :-
     Student_Id=13, Class_Id=47.
@@ -742,7 +742,7 @@ Attend(Student_Id, Class_Id) :-
     Student_Id=13, Class_Id=7.
 
 Attend(Student_Id, Class_Id) :-
-    Student_Id=14, Class_Id=6.
+    Student_Id=14, Class_Id=3.
 
 Attend(Student_Id, Class_Id) :-
     Student_Id=14, Class_Id=18.
@@ -754,7 +754,7 @@ Attend(Student_Id, Class_Id) :-
     Student_Id=15, Class_Id=23.
 
 Attend(Student_Id, Class_Id) :-
-    Student_Id=15, Class_Id=35.
+    Student_Id=15, Class_Id=3.
 
 Attend(Student_Id, Class_Id) :-
     Student_Id=15, Class_Id=47.
@@ -769,7 +769,7 @@ Attend(Student_Id, Class_Id) :-
     Student_Id=16, Class_Id=44.
 
 Attend(Student_Id, Class_Id) :-
-    Student_Id=16, Class_Id=6.
+    Student_Id=16, Class_Id=3.
 
 Attend(Student_Id, Class_Id) :-
     Student_Id=16, Class_Id=18.
@@ -781,7 +781,7 @@ Attend(Student_Id, Class_Id) :-
     Student_Id=17, Class_Id=42.
 
 Attend(Student_Id, Class_Id) :-
-    Student_Id=17, Class_Id=4.
+    Student_Id=17, Class_Id=3.
 
 Attend(Student_Id, Class_Id) :-
     Student_Id=17, Class_Id=16.
@@ -799,7 +799,7 @@ Attend(Student_Id, Class_Id) :-
     Student_Id=18, Class_Id=14.
 
 Attend(Student_Id, Class_Id) :-
-    Student_Id=18, Class_Id=2.
+    Student_Id=18, Class_Id=3.
 
 Attend(Student_Id, Class_Id) :-
     Student_Id=18, Class_Id=14.
@@ -1214,6 +1214,13 @@ UNL(id, x, y) :- id = 6, y+x>1450,  2y-x<950,x<750.
 
 
 
+
+Entry(id, x, y):- id=1,x=150,y=1000.
+Entry(id, x, y):- id=2,x=900,y=1100.
+Entry(id, x, y):- id=3,x=250,y=650.
+Entry(id, x, y):- id=4,x=1400,y=550.
+Entry(id, x, y):- id=5,x=1400,y=250.
+Entry(id, x, y):- id=6,x=450,y=200.
 
 
 
