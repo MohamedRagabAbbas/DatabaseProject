@@ -198,7 +198,7 @@ Class(Id, Subject, Size_Limit,Class_Room_Id) :-
 Instructor_Location(id, x, y) :- id = 1,x>=100,x<=150, y>=1000,y<=1050.
 
 Instructor(Id, First_Name, Last_Name, Department, Degree, x, y) :-
-    Id=1, First_Name="Mo", Last_Name="Ragab", Department="Math", Degree="PHD in Math".
+    Id=1, First_Name="Mo", Last_Name="Ragab", Department="Math", Degree="PHD in Math",x=1000,y=200.
 
 
 
@@ -210,46 +210,46 @@ Instructor(Id, First_Name, Last_Name, Department, Degree, x, y) :-
 Class_Room(Id, Capacity, Room_Number, Building_Id, Type, x, y) :-
     Id=1, Capacity=30, Room_Number=326, Building_Id=1, Type="Interactive Computer Classrooms", x=155.6, y=784.5.
 
-Class_Room(Id, Capacity, Room_Number, Building, Type, x, y) :-
+Class_Room(Id, Capacity, Room_Number, Building_Id, Type, x, y) :-
     Id=2, Capacity=25, Room_Number=210, Building_Id=1, Type="Seminar Room", x=140.2, y=780.3.
 
-Class_Room(Id, Capacity, Room_Number, Building, Type, x, y) :-
+Class_Room(Id, Capacity, Room_Number, Building_Id, Type, x, y) :-
     Id=3, Capacity=40, Room_Number=401, Building_Id=2, Type="Lecture Hall", x=160.7, y=790.8.
 
-Class_Room(Id, Capacity, Room_Number, Building, Type, x, y) :-
+Class_Room(Id, Capacity, Room_Number, Building_Id, Type, x, y) :-
     Id=4, Capacity=35, Room_Number=505, Building_Id=3, Type="Laboratory", x=170.5, y=775.9.
 
-Class_Room(Id, Capacity, Room_Number, Building, Type, x, y) :-
+Class_Room(Id, Capacity, Room_Number, Building_Id, Type, x, y) :-
     Id=5, Capacity=30, Room_Number=128, Building_Id=2, Type="Discussion Room", x=190.4, y=770.2.
 
-Class_Room(Id, Capacity, Room_Number, Building, Type, x, y) :-
+Class_Room(Id, Capacity, Room_Number, Building_Id, Type, x, y) :-
     Id=6, Capacity=28, Room_Number=201, Building_Id=5, Type="Classroom", x=200.1, y=765.6.
 
-Class_Room(Id, Capacity, Room_Number, Building, Type, x, y) :-
+Class_Room(Id, Capacity, Room_Number, Building_Id, Type, x, y) :-
     Id=7, Capacity=32, Room_Number=412, Building_Id=4, Type="Seminar Room", x=210.8, y=755.3.
 
-Class_Room(Id, Capacity, Room_Number, Building, Type, x, y) :-
+Class_Room(Id, Capacity, Room_Number, Building_Id, Type, x, y) :-
     Id=8, Capacity=25, Room_Number=315, Building_Id=4, Type="Classroom", x=220.6, y=745.7.
 
-Class_Room(Id, Capacity, Room_Number, Building, Type, x, y) :-
+Class_Room(Id, Capacity, Room_Number, Building_Id, Type, x, y) :-
     Id=9, Capacity=35, Room_Number=520, Building_Id=5, Type="Computer Lab", x=230.3, y=735.1.
 
-Class_Room(Id, Capacity, Room_Number, Building, Type, x, y) :-
+Class_Room(Id, Capacity, Room_Number, Building_Id, Type, x, y) :-
     Id=10, Capacity=30, Room_Number=202, Building_Id=1, Type="Classroom", x=240.0, y=725.5.
 
-Class_Room(Id, Capacity, Room_Number, Building, Type, x, y) :-
+Class_Room(Id, Capacity, Room_Number, Building_Id, Type, x, y) :-
     Id=11, Capacity=28, Room_Number=415, Building_Id=2, Type="Seminar Room", x=250.7, y=715.9.
 
-Class_Room(Id, Capacity, Room_Number, Building, Type, x, y) :-
+Class_Room(Id, Capacity, Room_Number, Building_Id, Type, x, y) :-
     Id=12, Capacity=32, Room_Number=128, Building_Id=3, Type="Lecture Hall", x=260.4, y=705.3.
 
-Class_Room(Id, Capacity, Room_Number, Building, Type, x, y) :-
+Class_Room(Id, Capacity, Room_Number, Building_Id, Type, x, y) :-
     Id=13, Capacity=25, Room_Number=212, Building_Id=6, Type="Discussion Room", x=270.1, y=695.7.
 
-Class_Room(Id, Capacity, Room_Number, Building, Type, x, y) :-
+Class_Room(Id, Capacity, Room_Number, Building_Id, Type, x, y) :-
     Id=14, Capacity=30, Room_Number=325, Building_Id=6, Type="Classroom", x=280.8, y=686.1.
 
-Class_Room(Id, Capacity, Room_Number, Building, Type, x, y) :-
+Class_Room(Id, Capacity, Room_Number, Building_Id, Type, x, y) :-
     Id=15, Capacity=35, Room_Number=520, Building_Id=6, Type="Computer Lab", x=290.5, y=676.5.
 
 
@@ -1201,6 +1201,6 @@ Find_Distance(a, b, c, d, distance) :-  distance -a+c - b+d=0,a-c>=0,b-d>=0.
 Find_Distance(a, b, c, d, distance) :-  distance-c+a -b+d =0,c-a>=0,b-d>=0.
 Find_Distance(a, b, c, d, distance) :-  distance -a+c -d+b=0,a-c>=0,d-b>=0.
 
-Find_Time(distance,time):- 80time - distance = 0.
+Find_Time(distance,time):- time - 0.0125distance = 0.
 
 end%MLPQ%

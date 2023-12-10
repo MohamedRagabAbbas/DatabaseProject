@@ -1,0 +1,11 @@
+begin %basic%
+
+CREATE_VIEW Mohamed_Schedule(Subject,Day, StartingTime, EndingTime)
+
+SELECT Class.Subject,Teach.Day,Teach.Starting_Time,Teach.Ending_Time
+
+FROM Class,Teach,Mohamed_Classes
+
+WHERE Class.Id=Mohamed_Classes.Id, Teach.Class_Id=Mohamed_Classes.Id
+
+end %basic%

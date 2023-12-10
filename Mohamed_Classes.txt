@@ -1,0 +1,11 @@
+begin %basic%
+
+CREATE_VIEW Mohamed_Classes(Id)
+
+SELECT Attend.Class_Id
+
+FROM Attend
+
+WHERE Attend.Student_Id=1 
+
+end %basic%

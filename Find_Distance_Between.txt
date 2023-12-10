@@ -1,0 +1,11 @@
+begin %basic%
+
+CREATE_VIEW Find_Distance_Between
+
+SELECT E1.id,E2.id,Find_Distance.distance
+
+FROM Entry AS E1, Entry AS E2 , Find_Distance
+
+WHERE E1.id=2,  E2.id=5,  Find_Distance.a=E1.x,  Find_Distance.b=E1.y,  Find_Distance.c=E2.x,  Find_Distance.d=E2.y
+
+end %basic%

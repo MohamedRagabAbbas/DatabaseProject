@@ -1,0 +1,3 @@
+begin %TEMPSQL%
+Mo_Office_Building_Id(Id) :- UNL(Id,UNL_x,UNL_y), Instructor(Instructor_Id,Instructor_First_Name,Instructor_Last_Name,Instructor_Department,Instructor_Degree,Instructor_x,Instructor_y), UNL_x-Instructor_x=0, UNL_y-Instructor_y=0. 
+end %TEMPSQL%

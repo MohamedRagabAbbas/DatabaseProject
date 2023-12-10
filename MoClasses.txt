@@ -1,0 +1,11 @@
+begin %basic%
+
+CREATE_VIEW Mo_Classes(class_Id,Day,Start, End)
+
+SELECT Teach.Class_Id, Teach.Day,Teach.Starting_Time, Teach.Ending_Time
+
+FROM Teach,Class
+
+WHERE Teach.Class_Id=Class.Id,    Teach.Instructor_Id=1 
+
+end %basic%

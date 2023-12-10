@@ -1,0 +1,11 @@
+begin %basic%
+
+CREATE_VIEW Mo_Office_Building_Id(Id)
+
+SELECT UNL.id
+
+FROM UNL,Instructor
+
+WHERE UNL.x=Instructor.x, UNL.y=Instructor.y
+
+end %basic%
