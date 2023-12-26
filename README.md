@@ -103,37 +103,44 @@ School Management System
 > students, faculty, and administrative staff.
 >
 > **- Tables**
+### Student, Class, Instructor, Instructor_Location, Class_Room
+| Student    | Class         | Instructor    | Instructor_Location | Class_Room   |
+|------------|---------------|---------------|---------------------|--------------|
+| Id         | Id            | Id            | Id                  | Id           |
+| First_Name | Subject       | First_Name    | x                   | Capacity     |
+| Last_Name  | Size_Limit    | Last_Name     | y                   | Room_Number  |
+| Major      | Class_Room_Id | Department    |                     | Building_Id  |
+| Standing   |               | Degree        |                     | Type         |
+| x          | x             |               |                     |              |
+| y          | y             |               |                     |              |
 
-| Student    | Class     | Instructor | Instructor_Location | Class_Room |
-|------------|-----------|------------|---------------------|------------|
-| Id         | Id        | Id         | Id                  | Id         |
-| First_Name | Subject   | First_Name | x                   | Capacity   |
-| Last_Name  | Size_Limit| Last_Name  | y                   | Room_Number|
-| Major      | Class_Room_Id | Department |                  | Building_Id|
-| Standing   |           | Degree     |                     | Type       |
-| x          | x         |            |                     |            |
-| y          | y         |            |                     |            |
+### Teach, Attend
+| Teach         | Attend        |
+|---------------|---------------|
+| Instructor_Id | Instructor_Id |
+| Student_Id    | Student_Id    |
+| Class_Id      | Class_Id      |
+| Class_Id      | Class_Id      |
+| Day           |               |
+| Starting_Time |               |
+| Ending_Time   |               |
 
-> School Management System\
-> 6
+### Campus UNL Entry
+| Campus | UNL | Entry |
+|--------|-----|-------|
+| id     | id  | id    |
+| x      | x   | x     |
+| y      | y   | y     |
 
-+-----------------------------------+-----------------------------------+
-| +---------+---------+---------+   | +--------------+--------------+   |
-| | Campus  | UNL     | Entry   |   | | F            | > Find_Time  |   |
-| +=========+=========+=========+   | | ind_Distance |              |   |
-| | > id    | > id    | > id    |   | +==============+==============+   |
-| +---------+---------+---------+   | | > a          | > distance   |   |
-| | > x     | > x     | > x     |   | +--------------+--------------+   |
-| +---------+---------+---------+   | | > b          | > time       |   |
-| | > y     | > y     | > y     |   | +--------------+--------------+   |
-| +---------+---------+---------+   | | > c          |              |   |
-|                                   | +--------------+--------------+   |
-|                                   | | > d          |              |   |
-|                                   | +--------------+--------------+   |
-|                                   | | > distance   |              |   |
-|                                   | +--------------+--------------+   |
-+===================================+===================================+
-+-----------------------------------+-----------------------------------+
+### Find_Distance
+| Find_Distance |          |
+|---------------|----------|
+| a             | distance |
+| b             | time     |
+| c             |          |
+| d             |          |
+| distance      |          |
+
 
 > **- Data in MLPQ**\
 > All entities and functions unselected:
