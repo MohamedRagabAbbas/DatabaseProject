@@ -1,9 +1,6 @@
-> ![](vertopal_9b75ef19816f4df5864933d428953e13/media/image1.png){width="6.6875in"
-> height="0.8013888888888889in"}
+> ![](vertopal_9b75ef19816f4df5864933d428953e13/media/image1.png)
 
-![](vertopal_9b75ef19816f4df5864933d428953e13/media/image2.png){width="5.6361100174978125in"
-height="3.75in"}
-
+![](vertopal_9b75ef19816f4df5864933d428953e13/media/image2.png)
 > **Final Project: School Management System** Written by:
 >
 > **Ben Morales**
@@ -82,8 +79,7 @@ School Management System
 >
 > **- Entity-Relationship Diagram (ERD)**
 >
-> ![](vertopal_9b75ef19816f4df5864933d428953e13/media/image3.png){width="6.6986100174978125in"
-> height="2.3652777777777776in"}
+> ![](vertopal_9b75ef19816f4df5864933d428953e13/media/image3.png)
 >
 > This entity-relationship diagram (ERD) provides a comprehensive visual
 > representation of the database structure of our academic management
@@ -145,57 +141,47 @@ School Management System
 > **- Data in MLPQ**\
 > All entities and functions unselected:
 
-![](vertopal_9b75ef19816f4df5864933d428953e13/media/image4.png){width="6.5in"
-height="2.25in"}
+![](vertopal_9b75ef19816f4df5864933d428953e13/media/image4.png)
 
 > Dummy data for "Student" entity:
 
-![](vertopal_9b75ef19816f4df5864933d428953e13/media/image5.png){width="6.5in"
-height="2.7819444444444446in"}
+![](vertopal_9b75ef19816f4df5864933d428953e13/media/image5.png)
 
 > Dummy data for "Class" entity:
 >
 > School Management System\
 > 7
 
-![](vertopal_9b75ef19816f4df5864933d428953e13/media/image6.png){width="6.5in"
-height="2.5833333333333335in"}
+![](vertopal_9b75ef19816f4df5864933d428953e13/media/image6.png)
 
 > Dummy data for "Class_Room" entity:
 
-![](vertopal_9b75ef19816f4df5864933d428953e13/media/image7.png){width="6.5in"
-height="2.7083333333333335in"}
+![](vertopal_9b75ef19816f4df5864933d428953e13/media/image7.png)
 
 > Dummy data for "Teach" relational entity:
 
-![](vertopal_9b75ef19816f4df5864933d428953e13/media/image8.png){width="6.5in"
-height="2.7402777777777776in"}
+![](vertopal_9b75ef19816f4df5864933d428953e13/media/image8.png)
 
 > School Management System\
 > 8
 >
 > Dummy data for "Attend" relational entity:
 
-![](vertopal_9b75ef19816f4df5864933d428953e13/media/image9.png){width="6.5in"
-height="2.9166666666666665in"}
+![](vertopal_9b75ef19816f4df5864933d428953e13/media/image9.png)
 
 Constraint visualizations of "Campus" and "UNL" constraint entities:
 
-![](vertopal_9b75ef19816f4df5864933d428953e13/media/image10.png){width="6.5in"
-height="2.2083333333333335in"}
+![](vertopal_9b75ef19816f4df5864933d428953e13/media/image10.png).
 
 > Constraint tables for "UNL" entity buildings:
 >
 > School Management System\
 > 9
 
-![](vertopal_9b75ef19816f4df5864933d428953e13/media/image11.png){width="6.5in"
-height="3.7083333333333335in"}
-
+![](vertopal_9b75ef19816f4df5864933d428953e13/media/image11.png)
 "Entry" tables showcasing IDs and coordinates of building entrances:
 
-![](vertopal_9b75ef19816f4df5864933d428953e13/media/image12.png){width="6.5in"
-height="2.801388888888889in"}
+![](vertopal_9b75ef19816f4df5864933d428953e13/media/image12.png)
 
 > "Find_Distance" function table showing the utilization of entry point
 > coordinates to determine distance between two buildings:
@@ -203,24 +189,19 @@ height="2.801388888888889in"}
 > School Management System\
 > 10
 
-![](vertopal_9b75ef19816f4df5864933d428953e13/media/image13.png){width="6.5in"
-height="2.8333333333333335in"}
-
+![](vertopal_9b75ef19816f4df5864933d428953e13/media/image13.png)
 > "Find_Time" function table showing the estimation of how much time
 > will pass for the average person to walk a given distance. Average
 > walking speed set at 80 m/s:
 
-![](vertopal_9b75ef19816f4df5864933d428953e13/media/image14.png){width="6.5in"
-height="2.801388888888889in"}
-
+![](vertopal_9b75ef19816f4df5864933d428953e13/media/image14.png)
 > Constraint mapping of campus and buildings (in meters):
 
 School Management System
 
 11
 
-![](vertopal_9b75ef19816f4df5864933d428953e13/media/image15.png){width="6.5in"
-height="2.75in"}
+![](vertopal_9b75ef19816f4df5864933d428953e13/media/image15.png)
 
 > **FUNCTIONS AND IMPLEMENTATION**\
 > We defined three high-level functions that can help our end-users:\
@@ -240,17 +221,13 @@ School Management System
 
 >![](vertopal_9b75ef19816f4df5864933d428953e13/media/image17.png)
 
-+===================================+===================================+
-+-----------------------------------+-----------------------------------+
+
 
 > In addition to those class IDs, one can also find the day, start time,
 > and end time those classes take place:
 
-+-----------------------------------+-----------------------------------+
 >![](vertopal_9b75ef19816f4df5864933d428953e13/media/image18.png)
 >>![](vertopal_9b75ef19816f4df5864933d428953e13/media/image19.png)
-+===================================+===================================+
-+-----------------------------------+-----------------------------------+
 
 > One can then find the desired classroom IDs for the two classes they
 > wish to estimate the time it will take the instructor that teaches
@@ -259,46 +236,32 @@ School Management System
 > School Management System\
 > 13
 
-+-----------------------------------+-----------------------------------+
 >![](vertopal_9b75ef19816f4df5864933d428953e13/media/image20.png)
 >>![](vertopal_9b75ef19816f4df5864933d428953e13/media/image21.png)
 +===================================+===================================+
-+-----------------------------------+-----------------------------------+
-
-+-----------------------------------+-----------------------------------+
 >![](vertopal_9b75ef19816f4df5864933d428953e13/media/image22.png)
 >>![](vertopal_9b75ef19816f4df5864933d428953e13/media/image23.png)
-+===================================+===================================+
-+-----------------------------------+-----------------------------------+
 
 > With the classroom IDs determined, one can then find their respective
 > building IDs:
 
-+-----------------------------------+-----------------------------------+
 >![](vertopal_9b75ef19816f4df5864933d428953e24/media/image18.png)
 >>![](vertopal_9b75ef19816f4df5864933d428953e25/media/image19.png)
-+===================================+===================================+
-+-----------------------------------+-----------------------------------+
+
 
 School Management System
 
 14
 
-+-----------------------------------+-----------------------------------+
 >![](vertopal_9b75ef19816f4df5864933d428953e26/media/image18.png)
 >>![](vertopal_9b75ef19816f4df5864933d428953e27/media/image19.png)
-+===================================+===================================+
-+-----------------------------------+-----------------------------------+
 
 > With the buildings determined, the user can then use the x and y
 > positions of the two desired buildings' entry points within the
 > Find_Distance function to find the distance in meters:
 
-+-----------------------------------+-----------------------------------+
 >![](vertopal_9b75ef19816f4df5864933d428953e13/media/image28.png)
 >>![](vertopal_9b75ef19816f4df5864933d428953e13/media/image29.png)
-+===================================+===================================+
-+-----------------------------------+-----------------------------------+
 
 > Then, that found distance can be input into the Find_Time function to
 > approximate the time it would take the instructor to go from one
@@ -308,11 +271,8 @@ School Management System
 
 15
 
-+-----------------------------------+-----------------------------------+
 >![](vertopal_9b75ef19816f4df5864933d428953e13/media/image30.png)
 >>![](vertopal_9b75ef19816f4df5864933d428953e13/media/image31.png)
-+===================================+===================================+
-+-----------------------------------+-----------------------------------+
 
 > In this case, it is determined that the instructor moving from class
 > **ID 3** and class **ID 8** will make it from one classroom to the
@@ -332,22 +292,16 @@ School Management System
 
 16
 
-+-----------------------------------+-----------------------------------+
 >![](vertopal_9b75ef19816f4df5864933d428953e13/media/image32.png)
 >>![](vertopal_9b75ef19816f4df5864933d428953e13/media/image33.png)
-+===================================+===================================+
-+-----------------------------------+-----------------------------------+
 
 > **- Function Three: Student Schedule Listing**\
 > Through the data collected for the database, a student's schedule can
 > efficiently be queried. One can easily find all class IDs of any given
 > student:
 
-+-----------------------------------+-----------------------------------+
 >![](vertopal_9b75ef19816f4df5864933d428953e13/media/image34.png)
 >>![](vertopal_9b75ef19816f4df5864933d428953e13/media/image35.png)
-+===================================+===================================+
-+-----------------------------------+-----------------------------------+
 
 > With more depth, schedules with class names, start and end times, and
 > the day of each class can all be shown together:
@@ -355,8 +309,5 @@ School Management System
 > School Management System\
 > 17
 
-+-----------------------------------+-----------------------------------+
 >![](vertopal_9b75ef19816f4df5864933d428953e13/media/image36.png)
 >>![](vertopal_9b75ef19816f4df5864933d428953e13/media/image37.png)
-+===================================+===================================+
-+-----------------------------------+-----------------------------------+
