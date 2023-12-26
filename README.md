@@ -104,26 +104,15 @@ School Management System
 >
 > **- Tables**
 
-+-------------+-------------+-------------+-------------+-------------+
-| > Student   | > Class     | >           | Instruct    | >           |
-|             |             |  Instructor | or_Location |  Class_Room |
-+=============+=============+=============+=============+=============+
-| > Id        | > Id        | > Id        | > Id        | > Id        |
-+-------------+-------------+-------------+-------------+-------------+
-| First_Name  | > Subject   | First_Name  | > x         | > Capacity  |
-+-------------+-------------+-------------+-------------+-------------+
-| Last_Name   | >           | > Last_Name | > y         | >           |
-|             |  Size_Limit |             |             | Room_Number |
-+-------------+-------------+-------------+-------------+-------------+
-| > Major     | > Cl        | Department  |             | >           |
-|             | ass_Room_Id |             |             | Building_Id |
-+-------------+-------------+-------------+-------------+-------------+
-| > Standing  |             | > Degree    |             | > Type      |
-+-------------+-------------+-------------+-------------+-------------+
-|             |             |             |             |             |
-+-------------+-------------+-------------+-------------+-------------+
-|             |             |             |             |             |
-+-------------+-------------+-------------+-------------+-------------+
+| Student    | Class     | Instructor | Instructor_Location | Class_Room |
+|------------|-----------|------------|---------------------|------------|
+| Id         | Id        | Id         | Id                  | Id         |
+| First_Name | Subject   | First_Name | x                   | Capacity   |
+| Last_Name  | Size_Limit| Last_Name  | y                   | Room_Number|
+| Major      | Class_Room_Id | Department |                  | Building_Id|
+| Standing   |           | Degree     |                     | Type       |
+| x          | x         |            |                     |            |
+| y          | y         |            |                     |            |
 
 > School Management System\
 > 6
